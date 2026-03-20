@@ -1,0 +1,74 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNbK9QrQPtyYXrmmjGH+j4C",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/shasi4069/davis_training/blob/main/Python_Lab/third.pynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def login():\n",
+        "    username = \"admin\"\n",
+        "    password = \"1234\"\n",
+        "\n",
+        "    attempts = 0\n",
+        "\n",
+        "    while attempts < 3:\n",
+        "        u = input(\"Enter username: \")\n",
+        "        p = input(\"Enter password: \")\n",
+        "\n",
+        "        if u == username and p == password:\n",
+        "            print(\"Login Successful\")\n",
+        "            return\n",
+        "        else:\n",
+        "            print(\"Wrong credentials\")\n",
+        "            attempts += 1\n",
+        "\n",
+        "    print(\"Account Locked\")\n",
+        "\n",
+        "login()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "EGHrC-4BoHqI",
+        "outputId": "f552c974-dea0-45b7-bc9c-507ae3fd6c5e"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter username: admin\n",
+            "Enter password: 1234\n",
+            "Login Successful\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
