@@ -1,0 +1,8 @@
+Installation :- open cmd in administrator mode
+command:- pip install numpy
+import numpy as np
+data type :- nd-array (stores collection of elements of same data type)(homogenous collection)
+fast
+homogenous collection
+memory efficient
+(list is not capable for numeric calculation)
